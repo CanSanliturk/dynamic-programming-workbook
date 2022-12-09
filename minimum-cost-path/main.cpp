@@ -4,6 +4,12 @@
 
 using namespace std;
 
+/*
+	A matrix is given and value of cells are cost of passing through it.
+	Find the minimum cost of reaching the bottom-right cell starting from
+	top-left cell.
+*/
+
 int minCostUsingTopDown(vector<vector<int>>& input, int i, int j, vector<vector<int>> cache) {
 
 	if (cache[i][j] != -1)
