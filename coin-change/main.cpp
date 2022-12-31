@@ -25,7 +25,16 @@ int coinChange(int n, const vector<int>& coins) {
 	return dp[n] == maxInt ? -1 : dp[n];
 }
 
+struct base {
+
+};
+
 int main() {
+
+	vector<int> asd = { 1, 2, 3};
+	auto asdend = asd.end();
+	cout << *asdend << endl;
+	return 0;
 
 	auto testCase = [](int n, const vector<int>& coins, int expectedOutput) {
 		cout << "__________" << endl;
